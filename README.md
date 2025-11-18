@@ -61,9 +61,15 @@ README.md
 
 
 ### 3. Start the FastAPI Service
-- Send a sample curl command after doing this:
+- Start uvicorn:
     ```bash
     uvicorn main:app --reload
+    ```
+- Send a sample curl command to call an API endpoint
+  ``` bash
+  curl -X POST "http://127.0.0.1:8000/predict_name" \
+     -H "Content-Type: application/json" \
+     -d '{"bmi": 22, "cholesterol": 180, "blood_pressure": 120}'
     ```
 - Produces our second log file at logs/health_api.log
 
