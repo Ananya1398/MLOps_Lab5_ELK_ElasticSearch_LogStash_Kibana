@@ -1,0 +1,4 @@
+2025-11-17 19:01:34,309 - INFO - PredictRequest: bmi=22.0, chol=180.0, bp=120.0
+2025-11-17 19:01:34,692 - INFO - PredictResponse: status_name=Healthy
+2025-11-17 19:05:08,799 - INFO - PredictRequest: bmi=24.0, chol=180.0, bp=120.0
+2025-11-17 19:05:08,863 - INFO - PredictResponse: status_name=Healthy

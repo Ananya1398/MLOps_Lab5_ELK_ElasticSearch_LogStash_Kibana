@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+scikit-learn
+pandas
+numpy
+joblib
+pydantic
+python-multipart
+
+# Logging
+loguru
+
+# Optional but safe to include for local experiments
+matplotlib
+
+# Elasticsearch & Logstash integration helpers (not required by Logstash itself)
+elasticsearch
